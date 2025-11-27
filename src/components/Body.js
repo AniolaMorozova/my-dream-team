@@ -19,11 +19,18 @@ const Body = () => {
               </div>
           </div>
 
+
           <div style={styles.card}>
               <img src={"/artem.jpg"} alt="Artem Yarmoliuk" style={styles.photo} />
               <div style={styles.textContainer}>
                   <h2 style={styles.name}>Artem Yarmoliuk</h2>
                   <p style={styles.position}>Business Analyst</p>
+          
+          <div style={styles.card}>
+              <img src={"/kostyantyn.png"} alt="Kostyantyn Kann" style={styles.photo} />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Kostyantyn Kann</h2>
+                  <p style={styles.position}>Developer</p>
               </div>
           </div>
     </main>
