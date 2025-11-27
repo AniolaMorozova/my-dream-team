@@ -21,11 +21,20 @@ const Body = () => {
 
 
           <div style={styles.card}>
+
               <img src={"/artem.jpg"} alt="Artem Yarmoliuk" style={styles.photo} />
               <div style={styles.textContainer}>
                   <h2 style={styles.name}>Artem Yarmoliuk</h2>
                   <p style={styles.position}>Business Analyst</p>
           
+
+              <img src={"/daryna.jpg"} alt="Baranova Daryna" style={styles.photo} />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Daryna Baranova</h2>
+                  <p style={styles.position}>Designer</p>
+              </div>
+          </div>
+
           <div style={styles.card}>
               <img src={"/kostyantyn.png"} alt="Kostyantyn Kann" style={styles.photo} />
               <div style={styles.textContainer}>
