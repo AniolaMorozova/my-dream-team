@@ -4,7 +4,7 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
-        <img src={"/anna.png"} alt="Anna Morozova" style={styles.photo} />
+        <img src={"/anna.JPG"} alt="Anna Morozova" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Anna Morozova</h2>
           <p style={styles.position}>Project Manager</p>
