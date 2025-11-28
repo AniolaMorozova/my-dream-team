@@ -6,7 +6,7 @@ const Body = () => {
       <div style={styles.card}>
         <img src={"/anna.JPG"} alt="Anna Morozova" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Anna Morozova</h2>
+          <h2 style={styles.name}>Test Conflict</h2>
           <p style={styles.position}>Project Manager</p>
         </div>
           </div>
@@ -14,19 +14,19 @@ const Body = () => {
           <div style={styles.card}>
               <img src={"/anastasiia.png"} alt="Anastasiia Sokolska" style={styles.photo} />
               <div style={styles.textContainer}>
-                  <h2 style={styles.name}>Anastasiia TESY CONFLICT Sokolska</h2>
+                  <h2 style={styles.name}>Anastasiia TESY CONFLICTSokolska</h2>
                   <p style={styles.position}>QA Engineer</p>
               </div>
           </div>
 
 
           <div style={styles.card}>
-
               <img src={"/artem.jpg"} alt="Artem Yarmoliuk" style={styles.photo} />
               <div style={styles.textContainer}>
                   <h2 style={styles.name}>Artem Yarmoliuk</h2>
                   <p style={styles.position}>Business Analyst</p>
-          
+          </div>
+
 
               <img src={"/daryna.jpg"} alt="Baranova Daryna" style={styles.photo} />
               <div style={styles.textContainer}>
