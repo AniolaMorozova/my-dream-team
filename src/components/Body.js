@@ -6,7 +6,7 @@ const Body = () => {
       <div style={styles.card}>
         <img src={"/anna.JPG"} alt="Anna Morozova" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Test Conflict</h2>
+          <h2 style={styles.name}>Anna Morozova</h2>
           <p style={styles.position}>Project Manager</p>
         </div>
           </div>
@@ -14,7 +14,7 @@ const Body = () => {
           <div style={styles.card}>
               <img src={"/anastasiia.png"} alt="Anastasiia Sokolska" style={styles.photo} />
               <div style={styles.textContainer}>
-                  <h2 style={styles.name}>Anastasiia TESY CONFLICTSokolska</h2>
+                  <h2 style={styles.name}>Anastasiia Sokolska</h2>
                   <p style={styles.position}>QA Engineer</p>
               </div>
           </div>
@@ -50,6 +50,9 @@ const styles = {
   body: {
     display: "flex",
     flexWrap: "wrap",
+    justifyContent: "center", 
+    alignItems: "flex-start",      
+    minHeight: "2rem", 
   },
   card: {
     width: "150px",
