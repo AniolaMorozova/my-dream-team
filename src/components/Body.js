@@ -1,6 +1,7 @@
 import React from "react";
 
 const Body = () => {
+  // test comment from Anna
   return (
     <main style={styles.body}>
       <div style={styles.card}>
@@ -9,7 +10,7 @@ const Body = () => {
           <h2 style={styles.name}>Anna Morozova</h2>
           <p style={styles.position}>Project Manager</p>
         </div>
-          </div>
+          </div> 
 
           <div style={styles.card}>
               <img src={"/anastasiia.png"} alt="Anastasiia Sokolska" style={styles.photo} />
